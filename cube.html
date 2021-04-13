@@ -22,7 +22,7 @@
       const gray = obelisk.ColorPattern.GRAY; // 색상
       const color = new obelisk.CubeColor().getByHorizontalColor(gray); // 수직에 대한 색상 설정
 
-      const cube = new obelisk.Cube(dimension, color, true); // 3번째 인자는 선 강조인듯하다.
+      const cube = new obelisk.Cube(dimension, color, false); // 3번째 인자는 선 강조인듯하다. 기본 값은 true
 
       pixelView.renderObject(cube);
     </script>
